@@ -1,0 +1,129 @@
+.Layout{
+     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:45.1rem;
+}
+.inner_layout{
+    background-color: black;
+    width:100%;
+    height: 45.1rem;
+    opacity: 0.85;
+}
+.LayoutText{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 10rem;
+}
+.InnerText{
+    color:white;
+}
+.InnerText h2{
+    font-size: 30px;
+    width: 350px;
+}
+.RightSide{
+    /* display: block; */
+    position: relative;
+    width: 28rem;
+    height: 12rem;
+    top: 10px;
+      margin-left: 50px;
+}
+.RightContent{      
+    position: relative;
+    top: 50px;
+    right: 150px;
+    color:white;
+    width: 380px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.RightButton{
+    position: relative;
+    top: 50px;
+    right: 150px;
+    width: 170px;
+   height: 49px;
+   background:#008EF8;
+   padding: 10px;
+   text-align: center;
+   border-radius: 5px;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   /* line-height: 25px; */
+   cursor: pointer;
+
+}
+
+.RightButton:hover{
+    background: white;
+  color:#008EF8;
+  border: 0.5px solid rgba(243, 241, 239, 1);
+}
+
+.LayoutCard{
+    margin-top: 25px;
+    width: 100%;
+    height: 30rem;
+}
+
+@media screen and (max-width:700px){
+    .Layout{
+        height: 44.5rem;
+    }
+    .InnerText h2{
+        font-size: 25px;
+    }
+    .inner_layout{
+        height: 44.5rem;
+    }
+    .RightContent{
+        position: relative;
+        right: 10px;
+        font-size: 13px;
+        /* width: 320px;
+        line-height: 24px; */
+    }
+    .RightButton{
+    position: relative;
+    top: 50px;
+    right: 10px;
+    width: 110px;
+   height: 39px;
+   font-size: 15px;
+   line-height: 17px;
+}
+}
+
+@media screen and (max-width:1300px){
+    .Layout{
+        height: 44.5rem;
+    }
+    .InnerText h2{
+        margin-top: 25px;
+        font-size: 32px;
+    }
+    .inner_layout{
+        height: 44.5rem;
+    }
+    .RightContent{
+        position: relative;
+        right: 10px;
+        font-size: 15px;
+        /* width: 320px;
+        line-height: 24px; */
+    }
+    .RightButton{
+    position: relative;
+    top: 50px;
+    right: 10px;
+    width: 110px;
+   height: 39px;
+   font-size: 15px;
+   line-height: 17px;
+}
+}
