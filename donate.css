@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+ * {
+	 box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+}
+ .cf:before, .bar:before, .cf:after, .bar:after {
+	 content: " ";
+	 display: table;
+}
+ .cf:after, .bar:after {
+	 clear: both;
+}
+
+ body {
+	 background: rgb(171, 171, 171);
+     
+	 font-family: montserrat, arial, verdana;
+}
+.m{
+	margin: 0px;
+	padding: 20px;
+	background-color: #D6D6EB;
+	
+	
+
+	
+
+	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%) , url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)');
+	background-size: 1270px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	
+  
+
+	
+  /* WHITE OPACITY 
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%,rgba(255, 255, 255, 0.7) 100%), url(https://wpsimplepay.com/wp-content/uploads/2019/02/FEATURED-How-to-Set-Suggested-Donation-Amounts-That-Drive-Conversions.png);
+}*/
+}
+  
+
+
+ .titleh {
+	 margin-bottom: 30px;
+	 text-align: center;
+	 color: #f7efef;
+	 
+}
+ .card {
+	 max-width: 500px;
+	 width: 90%;
+	 background: white;
+	 margin: 30px auto;
+	 padding: 20px 30px;
+	 border-radius: 2px;
+	 animation-duration: 0.2s;
+}
+ .card__title {
+	 text-align: center;
+	 text-transform: uppercase;
+	 margin: 0;
+}
+ .card__text {
+	 margin: 25px 0 40px 0;
+	 color: grey;
+}
+ .card:not(:first-of-type) {
+	 display: none;
+}
+ .actions {
+	 text-align: center;
+}
+ .btn {
+	 width: 100px;
+	 background: #D7306D;
+	 font-weight: bold;
+	 font-size: 14px;
+	 color: white;
+	 display: inline-block;
+	 text-decoration: none;
+	 text-align: center;
+	 border-radius: 2px;
+	 padding: 10px 5px;
+	 margin: 10px 5px;
+}
+ .btn:hover {
+	 box-shadow: 0 0 0 2px white, 0 0 0 3px #D7306D;
+}
+.bar__container {
+	justify-content: center;
+	align-items: center;
+	
+	display: flex;
+	
+	padding: 0;
+	margin: 0;
+  }
+  
+  .progress {
+	background: rgba(247, 246, 246, 0.986);
+	justify-content: flex-start;
+	border-radius: 100px;
+	align-items: center;
+	position: relative;
+	padding: 0 5px;
+	display: flex;
+	height: 40px;
+	width: 800px;
+  }
+  
+  .progress-value {
+	animation: load 3s normal forwards;
+	box-shadow: 0 10px 40px -10px #fff;
+	border-radius: 100px;
+	background: #D7306D;
+	height: 30px;
+	width:50vh;
+  }
+  
+  @keyframes load {
+	0% { width: 0; }
+	100% { width: 68%; }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+
+.bodys {
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #141414;
+}
+
+.h {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 50px 0;
+}
+
+
+.container {
+    width: min(80%,500px);
+    text-align: center;
+	margin-bottom: 40px;
+}
+
+.counters {
+    width: 100%;
+    display: block;
+}
+
+@media (min-width:768px) {
+    .counters {
+        display: flex;
+        justify-content: space-between;
+    }
+	.item{
+		margin: 10px;
+	padding: 10px;
+	}
+	
+}
+@media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+	.m{
+		background-size: 400px;
+		background-repeat: repeat;
+	}
+  }
+  
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    color: #fff;
+	justify-content: center;
+    align-items: center;
+	border: solid 5px white;
+	margin: 10px;
+	padding: 10px;
+}
+
+.item i {
+    font-size: 2rem;
+}
+
+.counter {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.counter__text {
+    font-size: .7rem;
+}
+
+  
