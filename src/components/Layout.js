@@ -27,7 +27,7 @@ function Layout(props) {
           </div>
         </div>
         <div className="LayoutCard">
-          <Card />
+          <Card className="Card"/>
         </div>
       </div>
     </div>

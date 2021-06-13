@@ -2,6 +2,7 @@ import React from "react";
 import CardUI from "./CardUI";
 // import styled from 'styled-components';
 import Carousel from "react-elastic-carousel";
+import './Card.css';
 
 function Card(props) {
   const breakpoints = [
@@ -11,8 +12,8 @@ function Card(props) {
     { width: 1200, itemsToShow: 4 },
   ];
   return (
-    <div>
-      <Carousel breakPoints={breakpoints}>
+    <div className="Container">
+      <Carousel breakPoints={breakpoints} className="Carousel">
         <CardUI
           backgroundImg="images/layoutImg.jpg"
           Title="Interfaith Tour to Punjab"
