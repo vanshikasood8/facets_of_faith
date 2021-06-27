@@ -134,3 +134,14 @@ p{
   color: #FFF;  
   transition: 0.4s;  
 }  
+
+.box3{  
+  background-color:  #D7306D;
+  border-top-left-radius: 10px;  
+  border-bottom-left-radius: 10px;  
+}  
+
+.btn3{  
+  color: #D7306D;  
+}  
+
